@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Dev Spell Book</title>
+        <meta charset="utf-8">
+	    <link href='style.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+        <div>
+            <video autoplay muted id="myVideo">
+                <source src="chest.mp4" type="video/mp4">
+            </video>
+        </div>
+        <script>
+        var video = document.querySelector('#myVideo');
+
+        video.addEventListener('play', function() {
+            video.playbackRate = 3.5;
+        });
+        </script>
+    </head>
+
+  <body>
+
+    <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./html.html">Html</a></li>
+          <li><a href="./css.html">Css</a></li>   
+        </ul>
+    </nav>
+
+    <header>
+        <img src="castle.jpeg">
+    </header>
+
+    <main>
+      
+      <section> 
+        <article>
+            <img src="dumbledore.jpg">
+            <p>"Words are, in my not-so-humble opinion, our most inexhaustible source of magic. Capable of both inflicting injury, and remedying it."</p>
+            <p>- A. D. 2 May 1998.</p>
+            <p>_________________________________________</p>
+            <p>In this clandestine grimoire, I entrust the essence of my magical journey. As you tread these arcane paths, may the spells herein reveal the depths of your own potential, just as they have illuminated mine. Approach with reverence and reverence alone.</p>
+        </article>
+      </section>
+   
+    </main>
+
+    <footer>
+        <p>Albus dumbledore</p>
+    </footer>      
+
+  </body>
+    
+</html>

@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: -20px;
+    transition: top 0.3s;
+    text-align: center;
+    background-color: black;
+}
+
+nav ul {
+    margin-right: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+p {
+    font-size: 30px;
+}
+
+section {
+    padding-bottom: 200px;
+}
+
+article img {
+    float:left;
+}
+
+article div {
+    padding-top: 200px;
+}
+
+article p {
+    font-family: Garamond;
+}
+

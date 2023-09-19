@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Html Cheat-Sheet</title>
+        <meta charset="utf-8">
+	    <link href='stylehtml.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+        <div>
+            <video autoplay muted id="myVideo">
+                <source src="chest.mp4" type="video/mp4">
+            </video>
+        </div>
+        <script>
+        var video = document.querySelector('#myVideo');
+
+        video.addEventListener('play', function() {
+            video.playbackRate = 3.5;
+        });
+        </script>
+    </head>
+
+  <body>
+
+    <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./html.html">Html</a></li>
+          <!--<li><a href="./css.html">Css</a></li>-->
+        </ul>
+    </nav>
+
+    <header>
+    </header>
+
+    <main>
+      
+      <section> 
+        <article>
+            <h1>Html Cheat Sheet</h1>
+            <h2>Basic Tags</h2>
+            <h3>&lt;html&gt; &lt;/html></h3>
+            <p>Creates an HTML document</p>
+
+            <h3>&lt;head&gt; &lt;/head></h3>
+            <p>Sets off the title & other info that isn't displayed</p>
+
+            <h3>&lt;body&gt; &lt;/body></h3>
+            <p>Sets off the visible portion of the document</p>
+
+            <h3>&lt;title&gt; &lt;/title></h3>
+            <p>Puts name of the document in the title bar; when 
+                bookmarking pages, this is what is bookmarked</p>
+
+            <h2>Body attributes (only used in email newsletters)</h2>
+            <h3>&lt;body bgcolor=?></h3>
+            <p>Sets background color, using name or hex value</p>
+
+            <h3>&lt;body text=?></h3>
+            <p>Sets text color, using name or hex value</p>
+
+            <h3>&lt;body link=?></h3>
+            <p>Sets color of links, using name or hex value</p>
+
+            <h3>&lt;body vlink=?></h3>
+            <p>Sets color of visited links, using name or hex value</p>
+
+            <h3>&lt;body alink=?></h3>
+            <p>Sets color of active links (while mouse-clicking)</p>
+
+            <h2>Text Tags</h2>
+            <h3>&lt;pre> &lt;/pre> </h3>
+            <p>Creates preformatted text</p>
+
+            <h3>&lt;h1> &lt;/h1> too &lt;h6> &lt;/h6&gt;</h3>
+            <p>Sets text color, using name or hex value</p>
+
+            <h3>&lt;b> &lt;/b&gt;</h3>
+            <p>Creates bold text (should use &lt;strong> instead)</p>
+
+            <h3>&lt;i> &lt;/i></h3>
+            <p>Creates italicized text (should use &lt;em> instead)</p>
+
+            <h3>&lt;tt> &lt;/tt></h3>
+            <p>Creates typewriter-style text</p>
+
+            <h3>&lt;code> &lt;/code></h3>
+            <p>Used to define source code, usually monospace</p>
+
+            <h3>&lt;cite> &lt;/cite></h3>
+            <p>Creates a citation, usually processed in italics</p>
+
+            <h3>&lt;address> &lt;/address></h3>
+            <p>Creates address section, usually processed in italics</p>
+
+            <h3>&lt;em> &lt;/em></h3>
+            <p>Emphasizes a word (usually processed in italics)</p>
+
+            <h3>&lt;strong> &lt;/strong></h3>
+            <p>Emphasizes a word (usually processed in bold)</p>
+
+            <h3>&lt;font size=?> &lt;/font></h3>
+            <p>Sets size of font - 1 to 7 (should use CSS instead)</p>
+
+            <h3>&lt;font color=?>> &lt;/font></h3>
+            <p>Sets font color (should use CSS instead)</p>
+
+            <h3>&lt;font face=?> &lt;/font></h3>
+            <p>Defines the font used (should use CSS instead)</p>
+            
+            <h2>Links</h2>
+            <h3>&lt;a href="URL"> clickable text &lt;/a> </h3>
+            <p>Creates a hyperlink to a Uniform Resource Locator</p>
+
+            <h3>&lt;a href="mailto:EMAIL_ADDRESS"> clickable text &lt;/a></h3>
+            <p>Creates a hyperlink to an email address</p>
+
+            <h3>&lt;a name="NAME"></h3>
+            <p>Creates a target location within a document</p>
+
+            <h3>&lt;a href="#NAME"> clickable text &lt;/a></h3>
+            <p>Creates a link to that target location</p>
+            
+        </article>
+      </section>
+   
+    </main>
+
+    <footer>
+    </footer>      
+
+  </body>
+    
+</html>
